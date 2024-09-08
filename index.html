@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mindful Moments</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <meta name="description" content="Welcome to my blog where I share insights on technology, travel, and lifestyle.">
+    <meta property="og:title" content="My Personal Blog">
+    <meta property="og:description" content="Insights on technology, travel, and lifestyle.">
+    <meta property="og:image" content="images/og-image.jpg">
+    <meta property="og:url" content="https://www.yourblogurl.com">
+</head>
+
+<body>
+    <div id="loading-spinner" aria-label="Loading content">
+        <div class="spinner"></div>
+    </div>
+
+    <div id="progress-bar" aria-hidden="true"></div>
+
+    <div class="notification-banner" aria-live="polite">
+        <p>Welcome to Mindful Moments! Check out the latest posts below.</p>
+        <button class="close-banner" aria-label="Close notification">×</button>
+    </div>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropbtn">Categories</a>
+                    <div class="dropdown-content">
+                        <a href="category1.html">Technology</a>
+                        <a href="category2.html">Lifestyle</a>
+                    </div>
+                </li>
+                <li><a href="contact.html">Contact</a></li>
+                <li>
+                    <button id="dark-mode-toggle" aria-label="Toggle dark mode">🌙 Dark Mode</button>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero-section">
+            <div class="hero-image">
+                <img src="images/hero-background.jpg" alt="Desk with computer and notepad" loading="lazy">
+                <div class="hero-text">
+                    <h1>Welcome to Mindful Moments</h1>
+                    <p>Sharing insights on Technology, Travel, Lifestyle, and more...</p>
+                    <a href="blog.html" class="hero-button">Explore Blog</a>
+                </div>
+            </div>
+        </section>
+        
+        <section class="parallax-section">
+            <div class="parallax-background" aria-hidden="true"></div>
+            <div class="content">
+                <h2>Immerse in the Experience</h2>
+                <p>Explore content that moves with you...</p>
+            </div>
+        </section>
+
+        <section class="about-section">
+            <div class="about-text">
+                <h2>About Me</h2>
+                <p>Hello! I'm Nova, a passionate blogger who loves sharing insights on technology, travel, lifestyle, and more.</p>
+            </div>
+        </section>
+
+        <section class="featured-post">
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="images/post-thumbnail1.jpg" alt="Featured post thumbnail" loading="lazy">
+                        <h3>Featured Post Title</h3>
+                    </div>
+                    <div class="flip-card-back">
+                        <h3>Post Summary</h3>
+                        <p>Brief description of the post...</p>
+                        <a href="post1.html" class="read-more">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="featured-posts">
+            <h2>Featured Posts</h2>
+            <div class="post-grid">
+                <article class="post-card">
+                    <img src="images/post1-webassembly-thumbnail.jpg" alt="Code on a computer screen representing WebAssembly" loading="lazy">
+                    <div class="post-content">
+                        <h3><a href="post1.html">The Impact of WebAssembly</a></h3>
+                        <p>WebAssembly is revolutionizing web development by offering near-native performance in the browser...</p>
+                        <a href="post1.html" class="read-more">Read More</a>
+                    </div>
+                </article>
+
+                <article class="post-card">
+                    <img src="images/post2-performance-thumbnail.jpg" alt="Graph showing website performance metrics" loading="lazy">
+                    <div class="post-content">
+                        <h3><a href="post2.html">Optimizing Website Performance</a></h3>
+                        <p>Core Web Vitals are key to ensuring a fast, responsive, and user-friendly website...</p>
+                        <a href="post2.html" class="read-more">Read More</a>
+                    </div>
+                </article>
+
+                <article class="post-card">
+                    <img src="images/post3-headlesscms-thumbnail.jpg" alt="Diagram of headless CMS architecture" loading="lazy">
+                    <div class="post-content">
+                        <h3><a href="post3.html">The Rise of Headless CMS</a></h3>
+                        <p>Explore the advantages of headless CMS in modern web architecture...</p>
+                        <a href="post3.html" class="read-more">Read More</a>
+                    </div>
+                </article>
+
+                <article class="post-card">
+                    <img src="images/post4-serverless-thumbnail.jpg" alt="Cloud computing concept illustration" loading="lazy">
+                    <div class="post-content">
+                        <h3><a href="post4.html">Understanding Serverless Architecture</a></h3>
+                        <p>Discover the benefits of serverless architecture for scalable web applications...</p>
+                        <a href="post4.html" class="read-more">Read More</a>
+                    </div>
+                </article>
+
+                <article class="post-card">
+                    <img src="images/post5-pwa-thumbnail.jpg" alt="Mobile device showing a progressive web app" loading="lazy">
+                    <div class="post-content">
+                        <h3><a href="post5.html">Exploring Progressive Web Apps (PWAs)</a></h3>
+                        <p>Learn how PWAs are transforming the mobile web experience...</p>
+                        <a href="post5.html" class="read-more">Read More</a>
+                    </div>
+                </article>
+
+                <article class="post-card">
+                    <img src="images/post-thumbnail6.jpg" alt="Scenic view representing life's journey" loading="lazy">
+                    <div class="post-content">
+                        <h3><a href="post6.html">The Odyssey of Life: Celebrating Every Step</a></h3>
+                        <p>Life is an extraordinary gift, an odyssey filled with lessons and experiences that shape who we are...</p>
+                        <a href="post6.html" class="read-more">Read More</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="gallery">
+            <h2>Image Gallery</h2>
+            <div class="gallery-grid">
+                <a href="images/gallery1.jpg" class="lightbox">
+                    <img src="images/gallery1.jpg" alt="Scenic landscape view" loading="lazy">
+                </a>
+                <a href="images/gallery2.jpg" class="lightbox">
+                    <img src="images/gallery2.jpg" alt="Urban cityscape at night" loading="lazy">
+                </a>
+                <a href="images/gallery3.jpg" class="lightbox">
+                    <img src="images/gallery3.jpg" alt="Close-up of a colorful flower" loading="lazy">
+                </a>
+            </div>
+        </section>
+
+        <section class="newsletter-signup">
+            <h2>Stay Updated</h2>
+            <p>Subscribe to our newsletter for the latest web development insights and tips!</p>
+            <form id="newsletter-form">
+                <label for="email">Email address:</label>
+                <input type="email" id="email" name="email" placeholder="Your email address" required>
+                <button type="submit">Subscribe</button>
+            </form>
+        </section>
+
+        <section class="chatbot">
+            <h2>Chat with our AI Assistant</h2>
+            <div id="chatbox">
+                <div id="messages"></div>
+                <input type="text" id="user-input" placeholder="Type your message..." aria-label="Chat message">
+                <button id="send-btn" aria-label="Send message">Send</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Mindful Moments | <a href="privacy-policy.html">Privacy Policy</a></p>
+    </footer>
+
+    <a href="#" id="back-to-top" aria-label="Scroll back to top">↑</a>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

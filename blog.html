@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - Mindful Moments</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <meta name="description" content="Browse through all the blog posts covering topics on technology, travel, and lifestyle.">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li class="dropdown">
+                    <a href="category1.html" class="dropbtn">Categories</a>
+                    <div class="dropdown-content">
+                        <a href="category1.html">Technology</a>
+                        <a href="category2.html">Lifestyle</a>
+                    </div>
+                </li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><button id="dark-mode-toggle">🌙 Dark Mode</button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Blog Section -->
+    <section class="blog-section">
+        <h1>All Blog Posts</h1>
+        <div class="post-grid">
+
+            <!-- Post 1 -->
+            <article class="post-card">
+                <img src="images/post-thumbnail1.jpg" alt="WebAssembly thumbnail">
+                <div class="post-content">
+                    <h3><a href="post1.html">The Impact of WebAssembly</a></h3>
+                    <p class="post-date">Published on August 25, 2024 | <span class="category">Technology</span></p>
+                    <p>WebAssembly is revolutionizing web development by offering near-native performance in the browser...</p>
+                    <a href="post1.html" class="read-more">Read More</a>
+                </div>
+            </article>
+
+            <!-- Post 2 -->
+            <article class="post-card">
+                <img src="images/post-thumbnail2.jpg" alt="Web Performance thumbnail">
+                <div class="post-content">
+                    <h3><a href="post2.html">Optimizing Website Performance</a></h3>
+                    <p class="post-date">Published on September 5, 2024 | <span class="category">Technology</span></p>
+                    <p>Core Web Vitals are key to ensuring a fast, responsive, and user-friendly website...</p>
+                    <a href="post2.html" class="read-more">Read More</a>
+                </div>
+            </article>
+
+            <!-- Post 3 -->
+            <article class="post-card">
+                <img src="images/post-thumbnail3.jpg" alt="Headless CMS thumbnail">
+                <div class="post-content">
+                    <h3><a href="post3.html">The Rise of Headless CMS</a></h3>
+                    <p class="post-date">Published on September 12, 2024 | <span class="category">Technology</span></p>
+                    <p>Explore the advantages of headless CMS in modern web architecture...</p>
+                    <a href="post3.html" class="read-more">Read More</a>
+                </div>
+            </article>
+
+            <!-- Post 4 -->
+            <article class="post-card">
+                <img src="images/post-thumbnail4.jpg" alt="Serverless Architecture thumbnail">
+                <div class="post-content">
+                    <h3><a href="post4.html">Understanding Serverless Architecture</a></h3>
+                    <p class="post-date">Published on September 19, 2024 | <span class="category">Technology</span></p>
+                    <p>Discover the benefits of serverless architecture for scalable web applications...</p>
+                    <a href="post4.html" class="read-more">Read More</a>
+                </div>
+            </article>
+
+            <!-- Post 5 -->
+            <article class="post-card">
+                <img src="images/post-thumbnail5.jpg" alt="Progressive Web Apps thumbnail">
+                <div class="post-content">
+                    <h3><a href="post5.html">Exploring Progressive Web Apps (PWAs)</a></h3>
+                    <p class="post-date">Published on September 26, 2024 | <span class="category">Technology</span></p>
+                    <p>Learn how PWAs are transforming the mobile web experience...</p>
+                    <a href="post5.html" class="read-more">Read More</a>
+                </div>
+            </article>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Mindful Moments | <a href="#">Privacy Policy</a></p>
+    </footer>
+
+    <!-- Back-to-Top Button -->
+    <a href="#" id="back-to-top">↑</a>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+
+</html>
